@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room&Hi</title>
+    <link href="../static/css/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <div class="text-container">
+            <p class="microphone-in-use">마이크 사용중...</p>
+            <button type="button" id="cancelButton">취소</button>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-wrapper">
+            <form class="search-box" action="/result">
+                <input type="text" id="search" name="search" required placeholder="예) 저렴하게 호캉스하기 좋은 깔끔한 호텔 알려줭">
+                <button type="button"   action="/result" id="micButton" style="background: none; border: none; padding: 0;">
+                    <img src="../static/img/mic2.png" alt="마이크" style="width: 25px; height: 25px;">
+                </button>
+            </form>
+            
+            <div class="search-image">
+                <img src="../static/img/logo2.png">
+            </div>
+            <form  class="search-button" action="/pick">
+                <button>저희가 추천해드릴까요? <br> click here</button>
+            </form>   
+        </div>
+    </div>
+
+    <script src="/static/js/stt.js"></script>
+
+
+</body>
+</html>
