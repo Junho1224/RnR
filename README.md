@@ -53,8 +53,8 @@
 <!-- <img src="https://github.com/Junho1224/RnR/assets/118183062/9ffbadac-adcf-44e4-9192-bb57c4c0cd17" alt="drawing" style="max-width:100%;background: black;" width="400"> -->
 
 - <a href="https://github.com/Junho1224"> 고준호</a>
-- <a href="https://github.com/Solxcero)"> 김다나 </a>
-- <a href="https://github.com/danakkii"> 이선영 </a>
+- <a href="https://github.com/danakkii"> 김다나 </a>
+- <a href="https://github.com/Solxcero"> 이선영 </a>
 - <a href="https://github.com/dlwltn931"> 이지수 </a>
 <br/><br/>
 
